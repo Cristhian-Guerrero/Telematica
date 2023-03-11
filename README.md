@@ -2,9 +2,9 @@
 
 ![Antirrobo](https://img.freepik.com/vector-premium/coche-o-vehiculo-protegido-seguridad-candado-o-ilustracion-idea-tecnologia-antirrobo-segura-automovil_212005-5.jpg?w=740)
 
-# Sistema de control antirrobo híbrido de veh ıculo mediante hardware y software libres
+# Sistema de control antirrobo híbrido de veh ıculo mediante hardware y software libres 
 
-:EMOJICODE: :earth_americas:
+
 
 
 
@@ -13,7 +13,7 @@
 
 ### General
 
-Desarrollar un prototipo de sistema de control antirrobo remoto aut ́onomo online para vehıculo automotor empleando hardware y software libres
+Desarrollar un prototipo de sistema de control antirrobo remoto aut ́onomo online para vehıculo :red_car: automotor empleando hardware y software libres
 
 
 ### Específicos
