@@ -2,7 +2,7 @@
 
 ![Antirrobo](https://img.freepik.com/vector-premium/coche-o-vehiculo-protegido-seguridad-candado-o-ilustracion-idea-tecnologia-antirrobo-segura-automovil_212005-5.jpg?w=740)
 
-# :rotating_light: Sistema de control antirrobo híbrido de vehıculo   mediante hardware y software libres :rotating_light: :red_car:
+# :rotating_light: :male_detective: Sistema de control antirrobo híbrido de vehıculo   mediante hardware y software libres :rotating_light: 	:male_detective: :red_car:
 
 
 
