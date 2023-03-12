@@ -56,5 +56,5 @@ En conclusión, el control antirrobo de vehículos es un tema importante para la
 Además, según el informe, los sistemas de seguridad de vehículos más populares en la actualidad son los sistemas de control remoto, los sistemas de bloqueadores de arranque, los sistemas de seguimiento por GPS y los sistemas de alarma de vehículos. Se prevé que estas tecnologías seguirán siendo populares durante mucho más tiempo.
 
 
-# *Victor Botina*
-# *Cristhian Guerrero*
+#### *Victor Botina*
+#### *Cristhian Guerrero*
