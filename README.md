@@ -52,3 +52,9 @@ Además, el sistema de control antirrobo debe contar con un software para propor
 Por último, el sistema de control antirrobo debe contar con una base de datos segura para almacenar la información relacionada con el vehículo. Esta información puede incluir el número de identificación del vehículo, la ubicación del vehículo y los datos de seguridad, como la contraseña del usuario. Esta base de datos debe estar protegida contra el acceso no autorizado, y los usuarios deben contar con una seguridad adecuada para garantizar la confidencialidad de la información.
 
 En conclusión**, el control antirrobo de vehículos es un tema importante para la industria. Un sistema de control antirrobo híbrido de vehículos puede ofrecer una solución segura y eficaz para evitar el robo. El sistema debe contar con dispositivos físicos de seguridad, un software de seguridad y una base de datos segura para almacenar la información relacionada con el vehículo. Esto ayudará a asegurar que los propietarios de vehículos puedan monitorear y controlar el uso y la ubicación de sus vehículos.
+
+Además, según el informe, los sistemas de seguridad de vehículos más populares en la actualidad son los sistemas de control remoto, los sistemas de bloqueadores de arranque, los sistemas de seguimiento por GPS y los sistemas de alarma de vehículos. Se prevé que estas tecnologías seguirán siendo populares durante mucho más tiempo.
+
+
+#*Victor Botina*
+#*Cristhian Guerrero*
