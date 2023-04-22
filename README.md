@@ -70,7 +70,7 @@ En general, los sistemas de seguridad vehicular son una herramienta importante p
 
 
 --- 
-### Antecedentes de los sistemas de seguridad para automóviles
+## Antecedentes de los sistemas de seguridad para automóviles
  
 Los sistemas de seguridad para automóviles en Colombia han estado presentes desde hace varias décadas. En la década de los años 1970, comenzaron a aparecer los primeros sistemas de seguridad para automóviles como los dispositivos antirrobo. Estos dispositivos fueron diseñados para reducir el riesgo de robo de los automóviles al bloquear el motor o la batería.
 Desde entonces, la seguridad para automóviles ha evolucionado y se han desarrollado nuevas tecnologías para mejorar la seguridad de los vehículos. Algunas de estas tecnologías incluyen sistemas de alarma, sistemas de rastreo GPS, sistemas de control de velocidad, sistemas de bloqueo de puertas, sensores de movimiento, cámaras de seguridad y sistemas de reconocimiento facial.
@@ -82,7 +82,7 @@ En cuanto a la tasa de incidencia de robos de vehículos, que mide el número de
 
 ---
 
-### Sistema de alarma
+## Sistema de alarma
 Un sistema de alarma es un dispositivo electrónico diseñado para detectar y alertar sobre situaciones de peligro o intrusión en una propiedad o lugar. Estos sistemas pueden incluir una variedad de sensores, como detectores de movimiento, detectores de humo, detectores de gas, entre otros, que activan una alarma audible o visual cuando se detecta una anomalía.
 
 Los sistemas de alarma también pueden estar conectados a una central de monitoreo que alerta a los servicios de emergencia en caso de que se detecte una emergencia. Además, los sistemas de alarma pueden ser controlados y monitoreados a través de dispositivos móviles y aplicaciones, lo que permite al usuario monitorear y controlar el sistema de alarma de forma remota.
@@ -108,9 +108,9 @@ En relación al hardware
 Microcontrolador: es un chip que contiene una unidad central de procesamiento (CPU), memoria y entradas/salidas (E/S). El microcontrolador se encarga de controlar y coordinar la comunicación entre dispositivos mediante la implementación de protocolos de comunicación.
 
 
-# Módulo de comunicación: es un componente que permite la conexión inalámbrica o por cable entre dispositivos. Algunos ejemplos incluyen Wi-Fi, Bluetooth, Zigbee, NFC y Ethernet.
+#### Módulo de comunicación: es un componente que permite la conexión inalámbrica o por cable entre dispositivos. Algunos ejemplos incluyen Wi-Fi, Bluetooth, Zigbee, NFC y Ethernet.
 
-# Sensores: son dispositivos que detectan cambios en el entorno y convierten esas señales en señales eléctricas que pueden ser procesadas por el microcontrolador. Los sensores pueden incluir acelerómetros, giroscopios, sensores de temperatura, sensores de luz, entre otros.
+#### Sensores: son dispositivos que detectan cambios en el entorno y convierten esas señales en señales eléctricas que pueden ser procesadas por el microcontrolador. Los sensores pueden incluir acelerómetros, giroscopios, sensores de temperatura, sensores de luz, entre otros.
 
 # Actuadores: son dispositivos que permiten controlar el entorno a través de señales eléctricas. Los actuadores pueden incluir motores, servomotores, relés, entre otros.
 
