@@ -108,7 +108,7 @@ En relación al hardware
 Microcontrolador: es un chip que contiene una unidad central de procesamiento (CPU), memoria y entradas/salidas (E/S). El microcontrolador se encarga de controlar y coordinar la comunicación entre dispositivos mediante la implementación de protocolos de comunicación.
 
 
-#### Módulo de comunicación: es un componente que permite la conexión inalámbrica o por cable entre dispositivos. Algunos ejemplos incluyen Wi-Fi, Bluetooth, Zigbee, NFC y Ethernet.
+*** Módulo de comunicación: *** es un componente que permite la conexión inalámbrica o por cable entre dispositivos. Algunos ejemplos incluyen Wi-Fi, Bluetooth, Zigbee, NFC y Ethernet.
 
 #### Sensores: son dispositivos que detectan cambios en el entorno y convierten esas señales en señales eléctricas que pueden ser procesadas por el microcontrolador. Los sensores pueden incluir acelerómetros, giroscopios, sensores de temperatura, sensores de luz, entre otros.
 
