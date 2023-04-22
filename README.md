@@ -133,6 +133,72 @@ Interfaces de programación de aplicaciones (API): son interfaces que permiten l
 
 Aplicaciones de prueba y diagnóstico: son programas que permiten probar y diagnosticar problemas en la comunicación entre dispositivos. Estas aplicaciones pueden ayudar a identificar problemas de hardware o software, y garantizar que los dispositivos se comuniquen correctamente mediante los protocolos de comunicación.
 
+--- 
+---
+## Objetivo No. 2 "Diseñar la estructura y comportamiento de la aplicación mediante metodologías de desarrollo para   dispositivos móviles que sea  programable y que  posibilite  controlar el vehículo." 
+
+Identificar las metodologías de desarrollo para dispositivos móviles que se adaptan a las necesidades del proyecto y establecer un plan de trabajo con fechas de entrega.
+
+Diseñar la estructura de la aplicación en base a los requerimientos del sistema de control antirrobo híbrido de vehículo, y considerando los recursos de hardware y software libres disponibles.
+
+Identificar los componentes y las funcionalidades necesarias para que la aplicación permita controlar el vehículo, y diseñar el comportamiento y la interacción de estos componentes.
+
+Desarrollar la aplicación de acuerdo a la estructura y comportamiento diseñados, utilizando las herramientas y tecnologías seleccionadas.
+Realizar pruebas y depuración de la aplicación, para asegurarse de que cumpla con los requerimientos del sistema y se comporte correctamente en diferentes situaciones.
+
+Documentar el diseño y desarrollo de la aplicación, y presentar los resultados obtenidos en el trabajo.
+Es importante tener en cuenta que el diseño y desarrollo de la aplicación debe considerar aspectos de seguridad para evitar posibles vulnerabilidades y riesgos para el vehículo y sus ocupantes.
+
+
+---
+
+En cuanto a metodologías de desarrollo para dispositivos móviles, existen varias opciones que se adaptan a diferentes necesidades de los proyectos, incluyendo:
+
+-Scrum: esta metodología se basa en sprints cortos para crear un ciclo de proyecto 1, lo que permite un desarrollo iterativo y adaptativo.
+-Kanban: esta metodología se enfoca en la visualización del flujo de trabajo, lo que facilita el seguimiento y control del progreso del proyecto.
+-Agile: esta metodología se enfoca en la colaboración y la flexibilidad, lo que permite que el equipo de desarrollo pueda adaptarse rápidamente a los cambios que surjan durante el proyecto.
+-DevOps: esta metodología se enfoca en el desarrollo y la operación conjunta de los sistemas, lo que permite reducir los tiempos de ciclo y mejorar la calidad del software.
+
+Es importante evaluar las características específicas del proyecto y los recursos disponibles para seleccionar la metodología de desarrollo que se adapte mejor. En cuanto al plan de trabajo con fechas de entrega, se recomienda establecer un cronograma detallado que permita monitorear el progreso y realizar ajustes y modificaciones según sea necesario.
+
+---
+
+Para diseñar la estructura de la aplicación en base a los requerimientos del sistema de control antirrobo híbrido de vehículo, y considerando los recursos de hardware y software libres disponibles, se pueden seguir los siguientes pasos:
+
+-Identificar los requerimientos del sistema de control antirrobo híbrido de vehículo, tales como el tipo de tecnología de comunicación a utilizar, los sensores necesarios para detectar situaciones de robo o intentos de robo, y los actuadores necesarios para llevar a cabo las acciones de control.
+
+-Identificar los recursos de hardware y software libres disponibles, tales como sensores y actuadores compatibles con sistemas de control de acceso libres y de fuente abierta, plataformas de hardware abiertas, y tecnologías de comunicación libres.
+
+-Definir la arquitectura de la aplicación, teniendo en cuenta los requerimientos del sistema y los recursos disponibles. Se puede utilizar un enfoque basado en componentes para dividir la aplicación en módulos más pequeños y manejables.
+
+-Establecer una interfaz de usuario intuitiva y fácil de usar que permita a los usuarios controlar el sistema de manera eficiente.
+
+-Desarrollar y probar la aplicación, utilizando herramientas de desarrollo de software libres y de fuente abierta. Es importante asegurarse de que los componentes de hardware y software libres seleccionados sean compatibles y funcionen correctamente entre sí.
+
+-Documentar el diseño y desarrollo de la aplicación, y presentar los resultados obtenidos en el trabajo.
+
+-Es importante tener en cuenta que la aplicación de control antirrobo híbrido de vehículo debe diseñarse teniendo en cuenta los aspectos de seguridad y protección necesarios para garantizar que el sistema sea confiable y efectivo en la prevención de robos.
+
+---
+
+Para identificar los componentes y funcionalidades necesarias para que la aplicación permita controlar el vehículo, se pueden seguir los siguientes pasos:
+
+Identificar los requerimientos del sistema y las especificaciones de hardware y software necesarios para el control del vehículo.
+
+Definir los componentes necesarios para el control del vehículo, tales como sensores, actuadores, dispositivos de comunicación, entre otros.
+
+Diseñar y desarrollar el comportamiento de los componentes y establecer la interacción entre ellos, lo que permitirá el control del vehículo a través de la aplicación.
+
+Establecer una interfaz de usuario intuitiva y fácil de usar que permita a los usuarios controlar el vehículo de manera eficiente y segura.
+
+Realizar pruebas de funcionamiento en diferentes escenarios y situaciones de conducción, con el fin de asegurar que la aplicación funcione correctamente y sea segura para el uso de los usuarios.
+
+Es importante tener en cuenta que el diseño y desarrollo de la aplicación debe estar en línea con las regulaciones y estándares de seguridad de la industria automotriz. Además, se debe garantizar que la aplicación sea capaz de adaptarse a diferentes modelos y marcas de vehículos.
+
+En resumen, para identificar los componentes y funcionalidades necesarias para que la aplicación permita controlar el vehículo, se debe realizar un estudio exhaustivo de los requerimientos del sistema, definir los componentes necesarios, diseñar y desarrollar su comportamiento y establecer una interfaz de usuario intuitiva, segura y fácil de usar. Además, se deben realizar pruebas exhaustivas para asegurar que la aplicación funcione correctamente y sea segura para el uso de los usuarios.
+
+
+
 
 #### *Victor Botina*
 #### *Cristhian Guerrero*
