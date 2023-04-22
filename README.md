@@ -152,7 +152,7 @@ Es importante tener en cuenta que el diseño y desarrollo de la aplicación debe
 
 ---
 
-**En cuanto a metodologías de desarrollo para dispositivos móviles, existen varias opciones que se adaptan a diferentes necesidades de los proyectos, incluyendo:
+**En cuanto a metodologías de desarrollo para dispositivos móviles, existen varias opciones que se adaptan a diferentes necesidades de los proyectos, incluyendo:**
 
 - Scrum: esta metodología se basa en sprints cortos para crear un ciclo de proyecto 1, lo que permite un desarrollo iterativo y adaptativo.
 
@@ -166,7 +166,7 @@ Es importante evaluar las características específicas del proyecto y los recur
 
 ---
 
-**Para diseñar la estructura de la aplicación en base a los requerimientos del sistema de control antirrobo híbrido de vehículo, y considerando los recursos de hardware y software libres disponibles, se pueden seguir los siguientes pasos:
+**Para diseñar la estructura de la aplicación en base a los requerimientos del sistema de control antirrobo híbrido de vehículo, y considerando los recursos de hardware y software libres disponibles, se pueden seguir los siguientes pasos:**
 
 - Identificar los requerimientos del sistema de control antirrobo híbrido de vehículo, tales como el tipo de tecnología de comunicación a utilizar, los sensores necesarios para detectar situaciones de robo o intentos de robo, y los actuadores necesarios para llevar a cabo las acciones de control.
 
@@ -184,7 +184,7 @@ Es importante evaluar las características específicas del proyecto y los recur
 
 ---
 
-**Para identificar los componentes y funcionalidades necesarias para que la aplicación permita controlar el vehículo, se pueden seguir los siguientes pasos:
+**Para identificar los componentes y funcionalidades necesarias para que la aplicación permita controlar el vehículo, se pueden seguir los siguientes pasos:**
 
 - Identificar los requerimientos del sistema y las especificaciones de hardware y software necesarios para el control del vehículo.
 
@@ -202,7 +202,7 @@ En resumen, para identificar los componentes y funcionalidades necesarias para q
 
 ---
 
-**Desarrollar la aplicación de acuerdo a la estructura y comportamiento diseñados implica utilizar las herramientas y tecnologías seleccionadas para llevar a cabo la implementación del sistema de control antirrobo híbrido de vehículo.
+**Desarrollar la aplicación de acuerdo a la estructura y comportamiento diseñados implica utilizar las herramientas y tecnologías seleccionadas para llevar a cabo la implementación del sistema de control antirrobo híbrido de vehículo.**
 
 Para llevar a cabo el desarrollo de la aplicación, se deben seguir los siguientes pasos:
 
@@ -218,6 +218,27 @@ Para llevar a cabo el desarrollo de la aplicación, se deben seguir los siguient
 
 En resumen, para desarrollar la aplicación es necesario seleccionar las herramientas y tecnologías libres y de fuente abierta, integrar los componentes diseñados, escribir el código, probar el sistema y documentar todo el trabajo. Es importante asegurarse de que el desarrollo de la aplicación esté en línea con los requerimientos del sistema y garantizar que sea capaz de adaptarse a diferentes modelos y marcas de vehículos. Además, se debe garantizar que la aplicación sea segura y eficiente para el uso de los usuarios.
 
+---
+
+**Para documentar el diseño y desarrollo de la aplicación, se debe elaborar un informe o documento que describa detalladamente cada uno de los pasos que se han llevado a cabo en el proceso. Este informe debería incluir lo siguiente:**
+
+1. Una descripción detallada de los requerimientos del sistema y las especificaciones de hardware y software necesarios para el control del vehículo.
+
+2. La identificación de los componentes necesarios para el control del vehículo, tales como sensores, actuadores, dispositivos de comunicación, entre otros.
+
+3. El diseño y desarrollo del comportamiento de los componentes y la establecida interacción entre ellos, lo que permitirá el control del vehículo a través de la aplicación.
+
+4. La interfaz de usuario diseñada, incluyendo los controles y comandos necesarios para controlar el vehículo de manera eficiente y segura.
+
+5. Las pruebas realizadas en diferentes situaciones y escenarios de conducción, para garantizar que la aplicación funcione correctamente y sea segura para el uso de los usuarios.
+
+6. La documentación de todo el trabajo realizado en el desarrollo de la aplicación, incluyendo el código de programación escrito, las especificaciones técnicas de cada uno de los componentes integrados, entre otros detalles relevantes.
+
+7. Además, es importante destacar cualquier aspecto de seguridad que se haya considerado en el diseño y desarrollo de la aplicación, para evitar posibles vulnerabilidades y disminuir los riesgos asociados a la conducción del vehículo.
+
+8. Por último, se deben presentar los resultados obtenidos en el trabajo, incluyendo cualquier hallazgo relevante en las pruebas realizadas, así como cualquier recomendación de mejora para futuras iteraciones del sistema.
+
+En resumen, para documentar el diseño y desarrollo de la aplicación se deben incluir detalles sobre los requerimientos del sistema, los componentes seleccionados, el diseño y desarrollo del comportamiento, la interfaz de usuario, las pruebas realizadas y la documentación del trabajo realizado. Es importante resaltar aspectos de seguridad y presentar los resultados obtenidos, incluyendo cualquier recomendación de mejora.
 
 
 
