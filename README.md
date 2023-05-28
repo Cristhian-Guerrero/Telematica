@@ -240,6 +240,59 @@ En resumen, para desarrollar la aplicación es necesario seleccionar las herrami
 
 En resumen, para documentar el diseño y desarrollo de la aplicación se deben incluir detalles sobre los requerimientos del sistema, los componentes seleccionados, el diseño y desarrollo del comportamiento, la interfaz de usuario, las pruebas realizadas y la documentación del trabajo realizado. Es importante resaltar aspectos de seguridad y presentar los resultados obtenidos, incluyendo cualquier recomendación de mejora.
 
+--
+
+# Metodología
+
+La presente investigación se caracteriza por ser un estudio de diseño y desarrollo tecnológico, enfocado en la construcción de un sistema de monitoreo y control para la seguridad vehicular. La metodología seleccionada para el desarrollo del sistema fue la Programación Extrema (XP), debido a su enfoque en la calidad del software y su capacidad para adaptarse a los requisitos cambiantes. Este enfoque metodológico nos permitió iterar y mejorar continuamente nuestro diseño a medida que surgieron nuevas necesidades y desafíos.
+
+# Especificaciones del sistema
+
+El sistema consta de varias componentes clave:
+
+Una interfaz para dispositivos móviles con sistema operativo Android, que permite al usuario interactuar con el sistema y visualizar las opciones disponibles.
+
+Firebase, una herramienta que ofrece almacenamiento en la nube y autenticación por correo electrónico.
+
+Un Raspberry Pi, un ordenador de placa reducida (SBC) junto a una placa de relés de cuatro canales, encargados de ejecutar los eventos de control en los actuadores a través de la conexión directa con los pines del Raspberry Pi.
+
+Un GPS FONA 808 que obtiene las coordenadas geográficas del vehículo. El GPS del dispositivo móvil también se utiliza para obtener las coordenadas del mismo.
+
+## Autenticación
+
+La comunicación entre Firebase y la aplicación se realiza a través de una conexión LTE, donde la autenticación se realiza por correo electrónico y contraseña. Firebase verifica si el correo electrónico ha sido verificado mediante un enlace provisto por la misma herramienta. Una vez autenticada con éxito, la aplicación permite visualizar las funcionalidades de control.
+
+## Modos de Control
+
+La aplicación ofrece dos modos de control: control a corta distancia (bloqueo por Bluetooth) y control a larga distancia (bloqueo manual y bloqueo por GPS).
+
+El control a corta distancia se utiliza cuando no hay conexión a Internet.
+El control a larga distancia se activa cuando hay conexión a Internet.
+El bloqueo manual se realiza mediante la interacción directa con los eventos de control, que incluyen bloquear y desbloquear el arranque y los seguros de las puertas.
+
+El control por GPS mide la variación de distancia entre el dispositivo móvil y el vehículo. La fórmula del Haversine se utiliza para calcular esta distancia.
+
+El control por Bluetooth se logra mediante la detección del Bluetooth del dispositivo móvil a través del Raspberry Pi. Se utiliza la intensidad del RSSI para determinar la proximidad del dispositivo móvil y realizar los eventos de control correspondientes.
+
+## Desarrollo del Sistema
+
+La construcción del sistema de seguridad vehicular implicó una serie de pasos sistemáticos que se realizaron de acuerdo con los principios de la Programación Extrema. Comenzamos por diseñar las especificaciones técnicas tanto de hardware como de software, seguido de la descripción detallada del sistema, sus funcionalidades, modalidades de control y los diagramas esenciales del aplicativo. Durante este proceso, fuimos iterando y mejorando continuamente nuestro diseño para asegurar su eficacia y eficiencia.
+
+## Implementación del Hardware
+
+Para la parte del hardware, comenzamos por integrar un Raspberry Pi y una placa de relés de cuatro canales. Esta combinación permite ejecutar los eventos de control en los actuadores a través de una conexión directa con los pines de la placa Raspberry Pi. Además, incorporamos un GPS FONA 808 para obtener las coordenadas del vehículo.
+
+## Implementación del Software
+
+Para la parte del software, construimos una interfaz para dispositivos móviles con sistema operativo Android. Esta interfaz permite a los usuarios interactuar con el sistema y realizar varias funciones, incluyendo el bloqueo y desbloqueo del arranque y los seguros de las puertas. Asimismo, utilizamos Firebase para implementar el almacenamiento en la nube y la autenticación por correo electrónico.
+
+## Pruebas y Verificaciones
+
+Una vez que el sistema estuvo construido, realizamos una serie de pruebas y verificaciones para asegurar su correcto funcionamiento. Estas pruebas incluyeron verificar que el sistema pudiera detectar correctamente la proximidad del dispositivo móvil mediante Bluetooth, y que pudiera bloquear y desbloquear correctamente el arranque y los seguros de las puertas en respuesta a los comandos del usuario.
+
+## Mejora Continua
+
+A lo largo de todo el proceso, fuimos incorporando los principios de la Programación Extrema para mejorar continuamente el diseño del sistema y adaptarlo a las necesidades cambiantes. Este enfoque nos permitió crear un sistema de seguridad vehicular robusto y flexible que puede adaptarse a diversas circunstancias y requerimientos.
 
 
 #### *Victor Botina*
