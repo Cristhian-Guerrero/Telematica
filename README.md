@@ -262,6 +262,49 @@ Un GPS FONA 808 que obtiene las coordenadas geográficas del vehículo. El GPS d
 
 La comunicación entre Firebase y la aplicación se realiza a través de una conexión LTE, donde la autenticación se realiza por correo electrónico y contraseña. Firebase verifica si el correo electrónico ha sido verificado mediante un enlace provisto por la misma herramienta. Una vez autenticada con éxito, la aplicación permite visualizar las funcionalidades de control.
 
+```python
+import pyrebase
+
+config = {
+    "apiKey": "your-api-key",
+    "authDomain": "your-auth-domain",
+    "databaseURL": "your-database-url",
+    "storageBucket": "your-storage-bucket"
+}
+
+firebase = pyrebase.initialize_app(config)
+
+auth = firebase.auth()
+
+# Autenticar un usuario
+def log_in():
+    email = input("Por favor ingrese su correo electrónico: ")
+    password = input("Por favor ingrese su contraseña: ")
+    try:
+        auth.sign_in_with_email_and_password(email, password)
+        print("Usuario autenticado exitosamente")
+    except:
+        print("Correo electrónico o contraseña incorrectos, por favor intente nuevamente")
+
+log_in()
+
+```
+cómo podrías almacenar datos de localización en Firebase utilizando Python:
+
+```python
+db = firebase.database()
+
+# Almacenar datos de localización
+def store_location_data(latitude, longitude):
+    data = {"latitude": latitude, "longitude": longitude}
+    db.child("location_data").push(data)
+    print("Datos de localización almacenados exitosamente")
+
+store_location_data(40.712776, -74.005974)  # Nueva York, por ejemplo
+
+```
+
+
 ## Modos de Control
 
 La aplicación ofrece dos modos de control: control a corta distancia (bloqueo por Bluetooth) y control a larga distancia (bloqueo manual y bloqueo por GPS).
@@ -273,6 +316,31 @@ El bloqueo manual se realiza mediante la interacción directa con los eventos de
 El control por GPS mide la variación de distancia entre el dispositivo móvil y el vehículo. La fórmula del Haversine se utiliza para calcular esta distancia.
 
 El control por Bluetooth se logra mediante la detección del Bluetooth del dispositivo móvil a través del Raspberry Pi. Se utiliza la intensidad del RSSI para determinar la proximidad del dispositivo móvil y realizar los eventos de control correspondientes.
+
+Además de la autenticación y el almacenamiento de datos de localización, se podría integrar la funcionalidad de cálculo de la distancia utilizando la fórmula Haversine en Python. Esto se usaría para calcular la distancia entre las coordenadas del vehículo obtenidas por el GPS FONA 808 y las del dispositivo móvil obtenidas por su propio GPS. Aquí te dejo un ejemplo de cómo implementar esto:
+
+```
+from math import radians, sin, cos, sqrt, atan2
+
+# Radio de la Tierra en km
+R = 6372.795477598 
+
+def calcular_distancia(lat1, lon1, lat2, lon2):
+    # Convertir grados a radianes
+    lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
+
+    # Formula Haversine
+    dlon = lon2 - lon1
+    dlat = lat2 - lat1
+    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+    c = 2 * atan2(sqrt(a), sqrt(1 - a))
+
+    distancia = R * c
+
+    return distancia
+```
+
+Este código define una función calcular_distancia() que toma como entrada las coordenadas de dos puntos en grados y devuelve la distancia entre ellos en kilómetros.
 
 ## Desarrollo del Sistema
 
@@ -293,6 +361,8 @@ Una vez que el sistema estuvo construido, realizamos una serie de pruebas y veri
 ## Mejora Continua
 
 A lo largo de todo el proceso, fuimos incorporando los principios de la Programación Extrema para mejorar continuamente el diseño del sistema y adaptarlo a las necesidades cambiantes. Este enfoque nos permitió crear un sistema de seguridad vehicular robusto y flexible que puede adaptarse a diversas circunstancias y requerimientos.
+
+
 
 
 #### *Victor Botina*
