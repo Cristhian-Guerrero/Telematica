@@ -251,11 +251,11 @@ El sistema consta de varias componentes clave:
 
 Una interfaz para dispositivos móviles con sistema operativo Android, que permite al usuario interactuar con el sistema y visualizar las opciones disponibles.
 
-<img src="[https://wepik.com/api/image/ai/8024cf49-0ffb-4558-901b-cba3e2a3f420](https://www.servnet.mx/hs-fs/hubfs/Blog/Blog_Articulos/Blog_Art%C3%ADculos/Blog_Articulos_2021_Marzo/Blog_Art%C3%ADculos_2021_Marzo_Art51_IU/Blog_Art%C3%ADculos_2021_Marzo_Art54_IU_nuevo/Clasificacion-de-las-interfaces-de-usuario.jpg?width=900&height=500&name=Clasificacion-de-las-interfaces-de-usuario.jpg)" width="500" height="300">
+<img src="https://foroalfa.org/imagenes/ilustraciones/3143.jpg" height="300">
 
 Firebase, una herramienta que ofrece almacenamiento en la nube y autenticación por correo electrónico.
 <img src="https://firebase.google.com/images/social.png" width="500" height="300">
-<img src="[https://firebase.google.com/images/social.png](https://programarfacil.com/wp-content/uploads/2017/05/esquema-general-geolocalizacion-wifi.png)" width="500" height="300">
+<img src="https://i.ibb.co/q18yrGq/Captura-desde-2023-05-28-13-41-40.png" width="500" height="300">
 
 
 Un Raspberry Pi, un ordenador de placa reducida (SBC) junto a una placa de relés de cuatro canales, encargados de ejecutar los eventos de control en los actuadores a través de la conexión directa con los pines del Raspberry Pi.
